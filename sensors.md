@@ -52,7 +52,7 @@ The Inovafit line of dust sensors use laser scattering to determine the count an
 `PM 2.5` and `PM 10` range. The Inovafit sensors opted to trade size for accuracy, resulting in a larger sensor that
 provides more reliable data. No data is available for the most recent model (`SDS 021`), however the updated housing
 is intended to extend the operating life of the sensor. Various sources (storefronts, etc.) place the service life at
-`8,000 hrs`, which can be extended by putting the sensor to sleep for large periods of time, given a `30 s` spin-up
+`8,000 hrs` (~1 year), which can be extended by putting the sensor to sleep for large periods of time, given a `30 s` spin-up
 before a reading is made.
 
 **Sources:**
