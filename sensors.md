@@ -10,10 +10,11 @@ size. We may want to switch to the [DFRobot PM 2.5 Sensor Module - Laser Sensing
 * **Max Current:** `20mA`
 * **Typical Current:** `11mA`
 
-The Sharp sensor has no specific particle size, however hobbiest testing has indicated the device favors smaller
-particles towards the `PM 2.5` range. The sensor also has a multitude of low-end accuracy problems. IR bleed from
-external light sources can reduce accuracy. Even in a textbook environment, internal reflection of the IR diode
-causes a minimum false positive at the low end (`0.5 volts`).
+The Sharp Dust Sensor datasheet and other related documents do not specify a particle size range. It appears this
+sensor simply gathers information on general dust in the air, however [hobbiest testing](http://lantaukwcounter.blogspot.com/2016/01/shinyei-and-sharp-dust-sensors-looking.html)
+has indicated the device favors smaller particles. The sensor also has a multitude of low-end accuracy problems. IR
+bleed from external light sources can interfere with the sensor's accuracy. Even in a textbook environment, however,
+internal reflection of the IR diode causes a minimum false positive at the low end (`0.5 volts`).
 
 ### DFRobot Laser Dust Sensor
 
@@ -22,7 +23,17 @@ causes a minimum false positive at the low end (`0.5 volts`).
 * **Typical Current:** `unk`
 * **Standby current:** `≤200 uA`
 
-Th DFRobot dust sensor outputs specific data on all of the relevant PM ranges (including `PM 1`, `PM 2.5` and ` PM 10`).
+The DFRobot PM 2.5 Sensor Module (Laser Sensing) is uses light scattering to gather specific information on dust
+particles and aerosols in the atmosphere. According to the [product wiki](http://www.dfrobot.com/wiki/index.php?title=PM2.5_laser_dust_sensor_SKU:SEN0177),
+which seems to serve as the sensor's datasheet, it will provide specific data on the density and number of particles.
 
-The DFRobot laser sensor doesn't have a datasheet. According to comments the minimum accuracy is 0.3 micrometers.
-One possible downside to the DFRobot sensor is that it outputs I2C.
+Further tests are needed to determine the accuracy of this sensor.
+
+**Pros:**
+* Outputs specific data on all of the relevant PM ranges (including `PM 1`, `PM 2.5` and ` PM 10`)
+* Apparently outputs actual partical counts
+
+**Cons:**
+* Can't find datasheet
+* Sensor outputs I2C only
+* Built in fan (higher power consumption)
