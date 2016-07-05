@@ -2,9 +2,6 @@
 
 ## Dust Sensors
 
-The first model used the [Sharp GP2Y1010AU0F](https://www.sparkfun.com/products/9689), which has an undefined particle
-size. We may want to switch to the [DFRobot PM 2.5 Sensor Module - Laser Sensing](http://www.dfrobot.com/index.php?route=product/product&product_id=1272#.V3vcGfkrJ_M).
-
 Relatively accurate laser scattering sensors can be aquired from Chinese distributors. These sensors require an active
 air flow to achieve accurate results. Most provide integrated fans to this end, which increases the power demands of
 the sensor.
@@ -61,7 +58,7 @@ before a reading is made.
 **Sources:**
 
 * [SDS 021 - $33.00](http://www.aliexpress.com/item/NOVA-PM2-5-Air-particle-dust-sensor-SDS021-laser-inside-digital-output-SDS021-Laser-PM2-5/32638192686.html?spm=2114.01010208.3.2.5WLRNu&ws_ab_test=searchweb201556_0,searchweb201602_3_10017_301_406,searchweb201603_11&btsid=c4ec533a-68d6-42cc-abdc-142fff967eff)
-* [SDS 018 - #32.00](http://www.aliexpress.com/item/PM2-5-Air-particle-dust-sensor-SDS018-laser-inside-digital-output-SAMPLE/32669257200.html?spm=2114.01010208.3.2.PMVmDH&ws_ab_test=searchweb201556_0,searchweb201602_3_10017_301_406,searchweb201603_11&btsid=ef18e8bc-5287-49f3-be6e-777f9e727015)
+* [SDS 018 - $32.00](http://www.aliexpress.com/item/PM2-5-Air-particle-dust-sensor-SDS018-laser-inside-digital-output-SAMPLE/32669257200.html?spm=2114.01010208.3.2.PMVmDH&ws_ab_test=searchweb201556_0,searchweb201602_3_10017_301_406,searchweb201603_11&btsid=ef18e8bc-5287-49f3-be6e-777f9e727015)
 * [SDS 011 - $24.80](http://www.aliexpress.com/item/Nova-PM-sensor-SDS011-High-precision-laser-pm2-5-air-quality-detection-sensor-module-Super-dust/32606349048.html?spm=2114.01010208.3.2.kOp9l1&ws_ab_test=searchweb201556_0,searchweb201602_3_10017_301_406,searchweb201603_11&btsid=3df6cf05-6547-4532-befc-906caf4e6bbc)
 
 The SDS011 laser dust sensor is similar to the PMS X003 model, however it is designed to provide more accurate readings
