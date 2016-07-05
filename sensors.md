@@ -1,5 +1,26 @@
 # Sensors
 
+## Gas Sensors
+
+### MICS-6814
+
+A tiny, all-in-one gas sensor with a comprehensive [datasheet](datasheets/MICS-6814.pdf).
+
+**Gasses:**
+
+* Carbon monoxide (CO) `1 – 1000ppm`
+* Nitrogen dioxide (NO2) `0.05 – 10ppm`
+* Ethanol (C2H5OH) `10 – 500ppm`
+* Hydrogen (H2) `1 – 1000ppm`
+* Ammonia (NH3) `1 – 500ppm`
+* Methane (CH4) `>1000ppm`
+* Propane (C3H8) `>1000ppm`
+* Iso-butane (C4H10) `>1000ppm`
+
+## Ozone Sensors
+
+
+
 ## Dust Sensors
 
 Relatively accurate laser scattering sensors can be aquired from Chinese distributors. These sensors require an active
