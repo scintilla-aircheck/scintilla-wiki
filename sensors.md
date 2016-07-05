@@ -17,9 +17,21 @@ A tiny, all-in-one gas sensor with a comprehensive [datasheet](datasheets/MICS-6
 * Propane (C3H8) `>1000ppm`
 * Iso-butane (C4H10) `>1000ppm`
 
-## Ozone Sensors
+### MICS-2614
 
+A tiny ozone gas detector with a comprehensive [datasheet](datasheets/MICS-2614.pdf)
 
+**Gasses:**
+
+*  Ozone (O3) `10 – 1000ppb`
+
+### 3SP_SO2_20 C Package 110-602
+
+A tiny sulfir dioxide sensor with a c comprehensive [datasheet](datasheets/3SP_SO2_20-C-Package-110-602.pdf).
+
+**Gasses:**
+
+* Sulfur Dioxide (SO2) - `0 - 22ppm`
 
 ## Dust Sensors
 
