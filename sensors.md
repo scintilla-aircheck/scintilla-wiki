@@ -2,6 +2,9 @@
 
 *Note: Up-to-date data on sensors and sourcing is available on the [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Mnqxya5YkDIkScoZPxakQ6ZnZfguzx2Y-9sy020iXRE/edit?usp=sharing).*
 
+SPEC provides 
+[sensor operation overview](http://www.spec-sensors.com/wp-content/uploads/2016/05/SPEC-Sensor-Operation-Overview.pdf) documentation, as well as individual package information.
+
 ### Design Considerations
 
 * According to SPEC documentation, "When dealing with very reactive gases, such as H2S, NO2, SO2 and O3, material selection is important. Care must be used in selecting all materials, including but not limited to enclosures, tubing, manifolds, pumps and valves." This is likely why the MiCS FAQ called for a Teflon filter.
