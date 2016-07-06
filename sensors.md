@@ -2,21 +2,6 @@
 
 *Note: Up-to-date data on sensors and sourcing is available on the [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Mnqxya5YkDIkScoZPxakQ6ZnZfguzx2Y-9sy020iXRE/edit?usp=sharing).*
 
-**Current sensor loadout:**
-
-* Temperature - TH02
-* Humidity - DHT22
-* Carbon Monoxide [CO] - [MiCS-6814](#MiCS-6814)
-* Ammonia [NH3] - ...
-* Methane [CH4] - ...
-* Propane [C3H8] - ...
-* Iso-Butane [C4H10] - ...
-* Nitrogen Dioxide [NO2] - ...
-* Ozone [O3] - [MiCS-2614](#MiCS-2614)
-* Sulfur Dioxide [SO2] - [3SP_SO2_20 C Package 110-602](#3SP_SO2_20 C Package 110-602)
-* Dust/Aerosol [PM 2.5/10] - [SDS021](#Inovafit Laser Dust Sensor (SDS 021/018/011))
-* Lead (?)
-
 ### Design Considerations
 
 * According to SPEC documentation, "When dealing with very reactive gases, such as H2S, NO2, SO2 and O3, material selection is important. Care must be used in selecting all materials, including but not limited to enclosures, tubing, manifolds, pumps and valves." This is likely why the MiCS FAQ called for a Teflon filter.
