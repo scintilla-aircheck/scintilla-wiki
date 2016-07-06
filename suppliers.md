@@ -11,6 +11,7 @@ Shenzhen Week Technology Ltd. has a large collection of sensors available for sa
 | [TGS4160 (Carbon Dioxide) Sensor 350-50k ppm](http://isweek.en.alibaba.com/product/60488834886-800554608/CO2_monitoring_TGS4160.html) | | |
 | [TGS2444 NH3 (Ammonia) Sensor 10-100 ppm](http://isweek.en.alibaba.com/product/60086277163-800587719/Ammonia_Sensor_NH3_Gas_Sensor_TGS2444.html) | | |
 | [TGS2611 CH4 (Methane) Sensor 500-10k ppm]() | | |
+| [TGS826 NH3 (Ammonia) Sensor 500-10k ppm](http://isweek.en.alibaba.com/product/60415388326-800582611/TGS_826_Detection_of_Ammonia.html) | | |
 | [CL2-A1 CL2 (Chlorine) Sensor]() | | |
 | [C3H8 Propane Sensor]() | | |
 | [C4H10 Iso-Butane Sensor]() | | |
