@@ -12,8 +12,8 @@ Shenzhen Week Technology Ltd. has a large collection of sensors available for sa
 | [TGS2444 NH3 (Ammonia) Sensor 10-100 ppm](http://isweek.en.alibaba.com/product/60086277163-800587719/Ammonia_Sensor_NH3_Gas_Sensor_TGS2444.html) | | |
 | [TGS2611 CH4 (Methane) Sensor 500-10k ppm]() | | |
 | [CL2-A1 CL2 (Chlorine) Sensor]() | | |
-| [SPEC C3H8 Propane Sensor 20 ppm]() | | |
-| [SPEC C4H10 Iso-Butane Sensor 20 ppm]() | | |
+| [C3H8 Propane Sensor]() | | |
+| [C4H10 Iso-Butane Sensor]() | | |
 | [SPEC CO (Carbon Monoxide) Sensor 1000 ppm](http://isweek.en.alibaba.com/product/60478958186-800587720/CO_Sensor_High_Quality_Carbon_Dioxide_Gas_Sensor_Price.html) | | |
 | [SPEC NO2 (Nitrogen Dioxide) Sensor 20ppm](http://isweek.en.alibaba.com/product/60489710501-800582611/Nitrogen_Dioxide_Gas_Sensor_3SP_NO2_20C.html) | | |
 | [SPEC SO2 (Sulfur Dioxide) Sensor 100 ppm](http://isweek.en.alibaba.com/product/60507298453-800582611/Air_Quality_Monitoring_SO2_Sensor_20ppm.html) | | |
