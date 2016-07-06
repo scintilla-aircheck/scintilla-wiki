@@ -60,6 +60,10 @@ A tiny ozone gas detector with a comprehensive [datasheet](documents/MiCS-2614.p
 **Documents:**
 * Datasheet: [MiCS-2614.pdf](documents/MiCS-2614.pdf)
 
+### SPEC Gas Sensors
+
+[Sensor operation overview](http://www.spec-sensors.com/wp-content/uploads/2016/05/SPEC-Sensor-Operation-Overview.pdf)
+
 ### 3SP_SO2_20 C Package 110-602
 
 A tiny sulfir dioxide sensor with a c comprehensive [datasheet](documents/3SP_SO2_20-C-Package-110-602.pdf).
