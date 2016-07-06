@@ -1,6 +1,6 @@
 # Sensors
 
-*Note: Up-to-date data on sensors and sourcing is available on the Google spreadsheet.*
+*Note: Up-to-date data on sensors and sourcing is available on the [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Mnqxya5YkDIkScoZPxakQ6ZnZfguzx2Y-9sy020iXRE/edit?usp=sharing).*
 
 **Current sensor loadout:**
 
