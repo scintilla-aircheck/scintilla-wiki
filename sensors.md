@@ -17,6 +17,10 @@
 * Dust/Aerosol [PM 2.5/10] - [SDS021](#Inovafit Laser Dust Sensor (SDS 021/018/011))
 * Lead (?)
 
+### Design Considerations
+
+* According to SPEC documentation, "When dealing with very reactive gases, such as H2S, NO2, SO2 and O3, material selection is important. Care must be used in selecting all materials, including but not limited to enclosures, tubing, manifolds, pumps and valves." This is likely why the MiCS FAQ called for a Teflon filter.
+
 ----
 
 ## Gas Sensors
