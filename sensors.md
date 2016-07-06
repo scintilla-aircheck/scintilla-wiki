@@ -1,10 +1,67 @@
 # Sensors
 
+----
+
+## Gas Sensors
+
+**Principal design considerations:**
+
+* Limit air flow - FAQ reccomends Teflon filter to mitigate error caused by air cooling the sensors
+* Limit dust exposure - Nonspecific dust filter reqiurements (implies major dust? > PM 10)
+
+### MiCS-6814
+
+A tiny, all-in-one gas sensor with a comprehensive [datasheet](documents/MiCS-6814.pdf).
+
+**Gasses:**
+
+* Carbon monoxide (CO) `1 – 1000ppm`
+* Nitrogen dioxide (NO2) `0.05 – 10ppm`
+* Ethanol (C2H5OH) `10 – 500ppm`
+* Hydrogen (H2) `1 – 1000ppm`
+* Ammonia (NH3) `1 – 500ppm`
+* Methane (CH4) `>1000ppm`
+* Propane (C3H8) `>1000ppm`
+* Iso-butane (C4H10) `>1000ppm`
+
+**Documents:**
+* Datasheet: [MiCS-6814.pdf](documents/MiCS-6814.pdf)
+
+### MiCS-2614
+
+A tiny ozone gas detector with a comprehensive [datasheet](documents/MiCS-2614.pdf)
+
+**Gasses:**
+
+*  Ozone (O3) `10 – 1000ppb`
+
+**Documents:**
+* Datasheet: [MiCS-2614.pdf](documents/MiCS-2614.pdf)
+
+### 3SP_SO2_20 C Package 110-602
+
+A tiny sulfir dioxide sensor with a c comprehensive [datasheet](documents/3SP_SO2_20-C-Package-110-602.pdf).
+
+**Gasses:**
+
+* Sulfur Dioxide (SO2) - `0 - 22ppm`
+
+**Documents:**
+* Datasheet: [3SP_SO2_20-C-Package-110-602.pdf](documents/3SP_SO2_20-C-Package-110-602.pdf)
+
+----
+
 ## Dust Sensors
 
 Relatively accurate laser scattering sensors can be aquired from Chinese distributors. These sensors require an active
 air flow to achieve accurate results. Most provide integrated fans to this end, which increases the power demands of
 the sensor.
+
+**Principal design considerations:**
+
+* Must provide major dust filter on housing (> PM 10)
+* Active air flow dust sensors can be used to pull air through entire housing
+* Some sensors are sensitive to vibration and orientation
 
 *Note: Hacky Chinese tests can be found [here](http://aqicn.org/sensor/).*
 
@@ -37,14 +94,8 @@ pinout and corresponding documents for the PMS 3003.
 
 The U.S. market DFRobot laser sensor is actually a PMS 1003 sensor.
 
-**Pros:**
-* Outputs specific data on all of the relevant PM ranges (including `PM 1`, `PM 2.5` and ` PM 10`)
-* Apparently outputs actual partical counts
-
-**Cons:**
-* Can't find datasheet
-* Sensor outputs I2C only
-* Built in fan (higher power consumption)
+**Documents:**
+* Faux Datasheet: [PMS5003_LOGOELE.pdf](documents/PMS5003_LOGOELE.pdf)
 
 ### Inovafit Laser Dust Sensor (SDS 021/018/011)
 
@@ -66,3 +117,6 @@ through a larger form factor. The sensor provides data for `PM 2.5` and `PM 10` 
 
 Datasheets exist for [v.1.0](http://inovafitness.com/upload/file/20150311/14261262164716.pdf) and
 [v.1.3](http://inovafitness.com/software/SDS011%20laser%20PM2.5%20sensor%20specification-V1.3.pdf) of the sensor.
+
+**Documents:**
+* Datasheet: [SDS021-V1.0.pdf](documents/SDS021-V1.0.pdf)
