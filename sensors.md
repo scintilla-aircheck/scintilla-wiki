@@ -4,8 +4,8 @@
 
 **Current sensor loadout:**
 
-* Temperature
-* Humidity
+* Temperature - TH02
+* Humidity - DHT22
 * Carbon Monoxide [CO] - [MiCS-6814](#MiCS-6814)
 * Ammonia [NH3] - ...
 * Methane [CH4] - ...
@@ -14,7 +14,7 @@
 * Nitrogen Dioxide [NO2] - ...
 * Ozone [O3] - [MiCS-2614](#MiCS-2614)
 * Sulfur Dioxide [SO2] - [3SP_SO2_20 C Package 110-602](#3SP_SO2_20 C Package 110-602)
-* Dust/Aerosol [PM 2.5/10] - [SDS-021](#Inovafit Laser Dust Sensor (SDS 021/018/011))
+* Dust/Aerosol [PM 2.5/10] - [SDS021](#Inovafit Laser Dust Sensor (SDS 021/018/011))
 * Lead (?)
 
 ----
