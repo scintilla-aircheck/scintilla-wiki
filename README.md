@@ -6,3 +6,4 @@ This is a repository to house the Scintilla Wiki.
 
 * [Sensors](sensors.md)
 * [Pollutants](pollutants.md)
+* [API](api.md)
