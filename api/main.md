@@ -1,4 +1,6 @@
 # API Spec
 
-* [sensor](sensor.md)
-* [data](data.md)
+**Endpoints:**
+
+* /[sensor](sensor.md)/
+* /[data](data.md)/
