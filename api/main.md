@@ -8,6 +8,6 @@
 
 **Endpoints:**
 
-* /auth/
-* /[data](data.md)/
-* /sensors/
+* /[data](data.md)/ `POST, GET, DELETE`
+* /data/{target}/ `GET`
+* /sensors/ `POST, GET`
