@@ -1,8 +1,4 @@
-# Scintilla API
-
-The Scintilla API is a lightweight JSON REST API with a single endpoint.
-
-Each device is registered with its own API key.
+# /api/v0/data/
 
 ## POST
 
