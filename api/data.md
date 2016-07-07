@@ -1,8 +1,8 @@
 # /api/v0/data/
 
-## POST
+There is no `PUT` request handling, because data frames are read-only.
 
-The API assumes all `POST` requests originate from devices in the field that post 
+## POST
 
 ### Request Schema
 
@@ -16,8 +16,12 @@ The API assumes all `POST` requests originate from devices in the field that pos
 {
   "type": "object",
   "properties": {
+    "deviceId": {
+      "description": "The unique device ID string.",
+      "type": "string"
+      },
     "datetime": {
-      "description": "An ISO 8601 formatted date/time string",
+      "description": "An ISO 8601 formatted date/time string.",
       "type": "string",
       },
     "location": {
@@ -99,30 +103,6 @@ The API assumes all `POST` requests originate from devices in the field that pos
       "value": 44.412,
       "unit": "PPM",
       "sensor": "SPEC_CO_1000"
-    },
-    {
-      "target": "NO2",
-      "value": 5.112,
-      "unit": "PPM",
-      "sensor": "SPEC_NO2_20"
-    },
-    {
-      "target": "H2S",
-      "value": 5.199,
-      "unit": "PPM",
-      "sensor": "SPEC_H2S_50"
-    },
-    {
-      "target": "PM2_5",
-      "value": 0.334,
-      "unit": "GM3",
-      "sensor": "SDS021"
-    },
-    {
-      "target": "PM10",
-      "value": 0.734,
-      "unit": "GM3",
-      "sensor": "SDS021"
     }
   ]
 }
@@ -130,13 +110,15 @@ The API assumes all `POST` requests originate from devices in the field that pos
 
 ### Example Response
 
-Success: `204 NO CONTENT`
-Authentication Failure: `401 NOT AUTHORIZED`
-Failure: `400 BAD REQUEST`
+The API assumes all `POST` requests originate from devices in the field that don't need any followup information.
+
+* Success: `204 NO CONTENT`
+* Authentication Failure: `401 NOT AUTHORIZED`
+* Failure: `400 BAD REQUEST`
 
 ## GET
 
-Data retrieveal is open to the public.
+Data defaults to open access. We can close this later if need be.
 
 **Query Parameters:**
 ```json
@@ -145,14 +127,56 @@ Data retrieveal is open to the public.
   "properties": {
     "limit": {
       "description": "The maximum number of data points per request."
-      "type": "number"
+      "type": "number",
+      "default": 100
       },
-    "offset":
+    "offset": {
+      "description": "The number of data points to skip."
+      "type": "number",
+      "default": 0
+    }
   }
   "required": []
 }
 ```
 
-## PUT
-
 ## DELETE
+
+Deleting a datapoint requires device-level authentication. An empty JSON body will delete nothing.
+
+Future modifications may include the ability to delete specific sensor results.
+
+### Request Schema
+
+**Headers:**
+```json
+"Authorization": "Key {deviceAPIKey}"
+```
+
+**JSON Body:**
+```json
+{
+  "type": "object",
+  "parameters": {
+    "datetime": {
+      "description": "An ISO 8601 formatted date string (will delete any matching)."
+      "type": "string"
+      },
+    "datetime_lt": {
+      "description": "An ISO 8601 formatted date string (will delete all entries prior)."
+      "type": "string"
+    },
+    "datetime_gt": {
+      "description": "An ISO 8601 formatted date string (will delete all entries after)."
+      "type": "string"
+    }
+  }
+}
+```
+
+### Example Response
+
+* Success: `204 NO CONTENT`
+* Authentication Failure: `401 NOT AUTHORIZED`
+* Failure: `400 BAD REQUEST`
+
