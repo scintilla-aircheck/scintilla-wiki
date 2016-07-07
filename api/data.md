@@ -2,7 +2,9 @@
 
 ## POST
 
-### Schema
+The API assumes all `POST` requests originate from devices in the field that post 
+
+### Request Schema
 
 **Headers:**
 ```json
@@ -126,7 +128,30 @@
 }
 ```
 
+### Example Response
+
+Success: `204 NO CONTENT`
+Authentication Failure: `401 NOT AUTHORIZED`
+Failure: `400 BAD REQUEST`
+
 ## GET
+
+Data retrieveal is open to the public.
+
+**Query Parameters:**
+```json
+{
+  "type": "object",
+  "properties": {
+    "limit": {
+      "description": "The maximum number of data points per request."
+      "type": "number"
+      },
+    "offset":
+  }
+  "required": []
+}
+```
 
 ## PUT
 
