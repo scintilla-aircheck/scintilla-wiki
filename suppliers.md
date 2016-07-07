@@ -1,5 +1,9 @@
 # Suppliers
 
+## Shenzhen Apollo Electronics Co., Ltd.
+
+The only other chinese competitor we've found with SPEC sensors.
+
 ## Shenzhen Week Technology Ltd.
 
 Shenzhen Week Technology Ltd. has a large collection of sensors available for sale, introducing the possiblity that we can order from a single supplier.
