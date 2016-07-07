@@ -2,5 +2,6 @@
 
 **Endpoints:**
 
+* /auth/
 * /[data](data.md)/
-* /[sensors](sensors.md)/
+* /sensors/
