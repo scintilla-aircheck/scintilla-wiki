@@ -9,5 +9,8 @@
 **Endpoints:**
 
 * /[data](data.md)/ `POST, GET, DELETE`
-* /data/{target}/ `GET`
-* /sensors/ `POST, GET`
+* /data/targets/ `GET`
+* /data/units/ `GET`
+* /data/sensors/ `GET`
+* 
+* /devices/ `POST, GET, UPDATE, DELETE`
