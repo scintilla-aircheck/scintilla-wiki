@@ -19,50 +19,6 @@ SPEC provides
 * Limit air flow - FAQ reccomends Teflon filter to mitigate error caused by air cooling the sensors
 * Limit dust exposure - Nonspecific dust filter reqiurements (implies major dust? > PM 10)
 
-### MiCS-6814
-
-A tiny, all-in-one gas sensor with a comprehensive [datasheet](documents/MiCS-6814.pdf).
-
-**Gasses:**
-
-* Carbon monoxide (CO) `1 – 1000ppm`
-* Nitrogen dioxide (NO2) `0.05 – 10ppm`
-* Ethanol (C2H5OH) `10 – 500ppm`
-* Hydrogen (H2) `1 – 1000ppm`
-* Ammonia (NH3) `1 – 500ppm`
-* Methane (CH4) `>1000ppm`
-* Propane (C3H8) `>1000ppm`
-* Iso-butane (C4H10) `>1000ppm`
-
-**Documents:**
-* Datasheet: [MiCS-6814.pdf](documents/MiCS-6814.pdf)
-
-### MiCS-2614
-
-A tiny ozone gas detector with a comprehensive [datasheet](documents/MiCS-2614.pdf)
-
-**Gasses:**
-
-*  Ozone (O3) `10 – 1000ppb`
-
-**Documents:**
-* Datasheet: [MiCS-2614.pdf](documents/MiCS-2614.pdf)
-
-### SPEC Gas Sensors
-
-[Sensor operation overview](http://www.spec-sensors.com/wp-content/uploads/2016/05/SPEC-Sensor-Operation-Overview.pdf)
-
-### 3SP_SO2_20 C Package 110-602
-
-A tiny sulfir dioxide sensor with a c comprehensive [datasheet](documents/3SP_SO2_20-C-Package-110-602.pdf).
-
-**Gasses:**
-
-* Sulfur Dioxide (SO2) - `0 - 22ppm`
-
-**Documents:**
-* Datasheet: [3SP_SO2_20-C-Package-110-602.pdf](documents/3SP_SO2_20-C-Package-110-602.pdf)
-
 ----
 
 ## Dust Sensors
