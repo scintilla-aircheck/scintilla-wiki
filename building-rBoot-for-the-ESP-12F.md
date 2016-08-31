@@ -1,4 +1,4 @@
-# Building for the ESP-12F
+# Building rBoot for the ESP-12F
 
 The following document describe how to building binaries for the ESP8266 that support OTA updates using raburton's rboot.
 
