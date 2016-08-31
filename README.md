@@ -7,4 +7,4 @@ This is a repository to house the Scintilla Wiki.
 * [Sensors](sensors.md)
 * [Pollutants](pollutants.md)
 * [API Spec](api/main.md)
-* [Building For The ESP-12F](building-for-the-ESP-12F.md)
+* [Building rBoot For The ESP-12F](building-rBoot-for-the-ESP-12F.md)
